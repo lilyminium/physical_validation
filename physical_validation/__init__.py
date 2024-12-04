@@ -23,10 +23,10 @@ __license__ = "MIT"
 __maintainer__ = "Pascal T. Merz, and Michael R. Shirts"
 __email__ = "pascal.merz@me.com, michael.shirts@colorado.edu"
 
-from . import data, ensemble, integrator, kinetic_energy, util
-from . import _version
+from . import _version, data, ensemble, integrator, kinetic_energy, util
 
 __all__ = ["data", "ensemble", "integrator", "kinetic_energy", "util"]
 
 from . import _version
-__version__ = _version.get_versions()['version']
+
+__version__ = _version.get_versions()["version"]
